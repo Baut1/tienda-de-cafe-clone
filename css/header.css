@@ -1,0 +1,38 @@
+header {
+    position: relative;
+    width: 100%;
+}
+
+.header__nav {
+    position: absolute;
+    color: var(--white-color);
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+.header__img {
+    margin: 1.5rem 0 0 0;
+}
+
+.ul__header {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.header__li {
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.header__li:hover {
+    opacity: 70%;
+}
+
