@@ -1,11 +1,17 @@
 @import url('./header.css');
 @import url('./products.css');
 @import url('./promos.css');
+@import url('./info.css');
+@import url('./sucursal.css');
+@import url('./footer.css');
 
 :root {
   --white-color : #F8F4F7;
+  --white-color-2: hsl(334, 6%, 54%);
   --black-color : #2D2A2A;
+  --black-color-bg : #111111;
   --gold-color: #C7A17A;
+  --grey-color: #9C7787;
 
   --second-font: "Oswald", Arial, Helvetica, sans-serif;
 }
@@ -32,6 +38,14 @@ a {
 
 ul {
 	list-style-type: none;
+}
+
+.article__products-section {
+    height: 0.15rem;
+    width: 7rem;
+    background-color: var(--gold-color);
+    text-align: center;
+    border-radius: 5rem;
 }
 
 .hero {

@@ -1,0 +1,47 @@
+.sucursal_section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/sucursal/image.png);
+    color: var(--white-color);
+    gap: 1rem;
+}
+
+.div__sucursal-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h4__sucursal-section {
+    font-size: 3rem;
+}
+
+.span__sucursal-section {
+    color: var(--gold-color);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.p__sucursal-section {
+    font-size: 1.3rem;
+}
+
+.a__sucursal-section {
+    border: 2px solid var(--white-color-2);
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1rem 0 0 0;
+    transition: 0.3s border ease;
+}
+
+.a__sucursal-section:hover {
+    border: 2px solid var(--white-color);
+}
+
