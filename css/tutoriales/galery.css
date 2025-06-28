@@ -1,0 +1,57 @@
+.galery_section-tutoriales {
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.article__section-galery {
+    background-image: url(../../assets/img/tutorials/image1.png);
+    height: 20rem;
+    width: 40%;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: background-size .3s ease-in-out;
+    cursor: pointer;
+    background-size: 150%;
+}
+
+.article__section-galery:nth-child(2) {
+    background-image: url(../../assets/img/tutorials/image2.png);
+}
+.article__section-galery:nth-child(3) {
+    background-image: url(../../assets/img/tutorials/image3.png);
+}
+.article__section-galery:nth-child(4) {
+    background-image: url(../../assets/img/tutorials/image4.png);
+}
+.article__section-galery:nth-child(5) {
+    background-image: url(../../assets/img/tutorials/image5.png);
+}
+.article__section-galery:nth-child(6) {
+    background-image: url(../../assets/img/tutorials/image6.png);
+}
+
+.article__section-galery:hover {
+    background-size: 170%;
+}
+
+.h3__section-galery {
+    font-size: 1.5rem;
+}
+
+.p__section-galery {
+    font-size: 0.9rem;
+    text-decoration: underline;
+}

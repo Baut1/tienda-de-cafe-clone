@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content:end ;
     align-items: start;
-    background-image: url(../assets/img/promos/banner-promo.jpg);
+    background-image: url(../../assets/img/promos/banner-promo.jpg);
     height: 20rem;
     width: 100%;
     gap: 0.5rem;
@@ -25,7 +25,7 @@
 }
 
 .article__promos-section:nth-child(2) {
-    background-image: url(../assets/img/promos/banner-promo2.jpg);
+    background-image: url(../../assets/img/promos/banner-promo2.jpg);
 }
 
 .span__promos-section {

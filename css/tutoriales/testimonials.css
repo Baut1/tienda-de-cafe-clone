@@ -1,0 +1,38 @@
+.testimonials_section-tutoriales {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 4rem;
+    color: var(--grey-color2);
+    opacity: 60%;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.p__section-tutoriales {
+    text-align: center;
+}
+
+.p__section-tutoriales:nth-child(3) {
+    font-style: italic;
+    width: 35rem;
+}
+
+.p__section-tutoriales:nth-child(4) {
+    font-style: italic;
+    width: 35rem;
+}
+
+.p__section-tutoriales:nth-child(5) {
+    font-weight: bold;
+}
+
+.div__section-tutoriales {
+    width: 70%;
+    height: 0.05rem;
+    background-color: grey;
+    margin: 1rem 0 0 0;
+}

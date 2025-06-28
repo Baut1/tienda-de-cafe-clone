@@ -1,9 +1,18 @@
-@import url('./header.css');
-@import url('./products.css');
-@import url('./promos.css');
-@import url('./info.css');
-@import url('./sucursal.css');
-@import url('./footer.css');
+/* INDEX */
+@import url('./index/header.css');
+@import url('./index/products.css');
+@import url('./index/promos.css');
+@import url('./index/info.css');
+@import url('./index/sucursal.css');
+@import url('./index/footer.css');
+
+/* TIENDA */
+@import url('./tienda/header.css');
+@import url('./tienda/products.css');
+
+/* TUTORIALES */
+@import url('./tutoriales/testimonials.css');
+@import url('./tutoriales/galery.css');
 
 :root {
   --white-color : #F8F4F7;
