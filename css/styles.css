@@ -19,6 +19,12 @@
 @import url("./menu/hero.css");
 @import url("./menu/gallery.css");
 
+/* TRABAJA EN TDC */
+@import url("./trabaja-en-tdc/main.css");
+
+/* FRANQUICIAS */
+@import url("./franquicias/franquicias.css");
+
 :root {
   --white-color: #f8f4f7;
   --white-color-2: hsl(334, 6%, 54%);
@@ -26,6 +32,8 @@
   --black-color-bg: #111111;
   --gold-color: #c7a17a;
   --grey-color: #9c7787;
+  --grey-color2: #777789;
+  --grey-color3: #b9b9d9;
 
   --second-font: "Oswald", Arial, Helvetica, sans-serif;
 }

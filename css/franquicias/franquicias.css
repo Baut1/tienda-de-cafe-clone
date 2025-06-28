@@ -1,0 +1,13 @@
+.franquicias_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.p__section-franquicia {
+    max-width: 70%;
+    text-align: center;
+}

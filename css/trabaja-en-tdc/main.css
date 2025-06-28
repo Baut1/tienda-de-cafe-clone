@@ -1,0 +1,96 @@
+.main__work-in-tdc {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.work-in-tdc-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.p__section-work-in-tdc:nth-child(1) {
+    color: var(--gold-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.p__section-work-in-tdc {
+    color: var(--grey-color2);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.h3__section-work-in-tdc {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.p__section-work-in-tdc {
+    font-size: 1.1rem;
+}
+
+.form__section-work-in-tdc {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem ;
+    margin: 2rem 0 0 0;
+    padding: 0 4rem;
+}
+
+.div__section-work-in-tdc {
+    width: 48%;
+}
+
+.div__section-work-in-tdc > label {
+    color: var(--black-color);
+}
+
+.div__section-work-in-tdc > input{
+    width: 100%;
+    height: 2.5rem;
+    outline: none;
+    padding: 0.2rem 1rem;
+    margin: 5px 0 0 0;
+    border: 1px solid var(--grey-color3);
+}
+
+.div__section-work-in-tdc:nth-child(7) > input {
+    padding: 10px 0 0 10px;
+}
+
+.div__section-work-in-tdc:nth-child(8) {
+    width: 99%;
+}
+
+.div__section-work-in-tdc:nth-child(8) > input{
+    height: 12rem;
+}
+
+.form__section-work-in-tdc > button {
+    background-color: var(--gold-color);
+    color: var(--white-color);
+    padding: 0.85rem 1rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    transition: .3s filter ease;
+    cursor: pointer;
+    filter: brightness(1);
+}
+
+.form__section-work-in-tdc > button:hover {
+    filter: brightness(0.9);
+}
