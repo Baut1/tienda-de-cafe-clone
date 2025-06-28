@@ -1,30 +1,34 @@
 /* INDEX */
-@import url('./index/header.css');
-@import url('./index/products.css');
-@import url('./index/promos.css');
-@import url('./index/info.css');
-@import url('./index/sucursal.css');
-@import url('./index/footer.css');
+@import url("./index/header.css");
+@import url("./index/products.css");
+@import url("./index/promos.css");
+@import url("./index/info.css");
+@import url("./index/sucursal.css");
+@import url("./index/footer.css");
 
 /* TIENDA */
-@import url('./tienda/header.css');
-@import url('./tienda/products.css');
+@import url("./tienda/header.css");
+@import url("./tienda/products.css");
 
 /* TUTORIALES */
-@import url('./tutoriales/testimonials.css');
-@import url('./tutoriales/galery.css');
+@import url("./tutoriales/testimonials.css");
+@import url("./tutoriales/galery.css");
+
+/* MENU */
+@import url("./menu/header.css");
+@import url("./menu/hero.css");
+@import url("./menu/gallery.css");
 
 :root {
-  --white-color : #F8F4F7;
+  --white-color: #f8f4f7;
   --white-color-2: hsl(334, 6%, 54%);
-  --black-color : #2D2A2A;
-  --black-color-bg : #111111;
-  --gold-color: #C7A17A;
-  --grey-color: #9C7787;
+  --black-color: #2d2a2a;
+  --black-color-bg: #111111;
+  --gold-color: #c7a17a;
+  --grey-color: #9c7787;
 
   --second-font: "Oswald", Arial, Helvetica, sans-serif;
 }
-
 
 * {
   margin: 0;
@@ -33,28 +37,31 @@
 }
 
 body {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
-h1, p , ul, li {
-	margin: 0;
+h1,
+p,
+ul,
+li {
+  margin: 0;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .article__products-section {
-    height: 0.15rem;
-    width: 7rem;
-    background-color: var(--gold-color);
-    text-align: center;
-    border-radius: 5rem;
+  height: 0.15rem;
+  width: 7rem;
+  background-color: var(--gold-color);
+  text-align: center;
+  border-radius: 5rem;
 }
 
 .hero {

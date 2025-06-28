@@ -1,0 +1,38 @@
+.hero-section-menu {
+    background-image: url(../../assets/img/promos/banner-promo2.jpg);
+    height: 100vh;
+    background-size: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.article__section_hero-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    height: 100%;
+    padding: 0 6rem;
+}
+
+.h3__section_hero-menu {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: -0.2rem;
+}
+
+.h1__section_hero-menu {
+    text-transform: uppercase;
+    font-size: 4rem;
+    max-width: 20rem;
+}
+
+.p__section_hero-menu {
+    font-size: 1.3rem;
+    font-weight: bold;
+    max-width: 25rem;
+}
+
