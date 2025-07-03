@@ -1,47 +1,94 @@
-.sucursal_section{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../assets/img/sucursal/image.png);
-    color: var(--white-color);
-    gap: 1rem;
+.sucursal_section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/img/sucursal/image.png);
+  background-size: cover;
+  background-position: center;
+  color: var(--white-color);
+  gap: 1rem;
+  padding: 2rem 5%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .div__sucursal-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .h4__sucursal-section {
-    font-size: 3rem;
+  font-size: 3rem;
+  margin: 0;
 }
 
 .span__sucursal-section {
-    color: var(--gold-color);
-    font-size: 4rem;
-    font-weight: bold;
+  color: var(--gold-color);
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
 }
 
 .p__sucursal-section {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 .a__sucursal-section {
-    border: 2px solid var(--white-color-2);
-    padding: 0.8rem 2rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 1rem 0 0 0;
-    transition: 0.3s border ease;
+  border: 2px solid var(--white-color-2);
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: border 0.3s ease;
+  color: var(--white-color);
+  background-color: transparent;
+  border-radius: 0.3rem;
+  user-select: none;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .a__sucursal-section:hover {
-    border: 2px solid var(--white-color);
+  border-color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+  .h4__sucursal-section {
+    font-size: 2.2rem;
+  }
+  .span__sucursal-section {
+    font-size: 3rem;
+  }
+  .p__sucursal-section {
+    font-size: 1.1rem;
+  }
+  .a__sucursal-section {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Móviles */
+@media (max-width: 480px) {
+  .h4__sucursal-section {
+    font-size: 1.8rem;
+  }
+  .span__sucursal-section {
+    font-size: 2.2rem;
+  }
+  .p__sucursal-section {
+    font-size: 1rem;
+  }
+  .a__sucursal-section {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
 }
 
