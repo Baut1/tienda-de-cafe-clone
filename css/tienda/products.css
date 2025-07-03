@@ -1,4 +1,4 @@
-.products_section-tienda{
+.products_section-tienda {
     margin: 4rem 0;
     display: flex;
     justify-content: center;
@@ -7,7 +7,6 @@
 
 .h2__products-section-tienda {
     text-transform: uppercase;
-    /* text-align: center; */
     font-size: 2rem;
 }
 
@@ -35,7 +34,6 @@
     justify-content: center;
     gap: 1rem;
     font-weight: bold;
-    /* width: 20rem; */
 }
 
 .img__products-section-tienda {

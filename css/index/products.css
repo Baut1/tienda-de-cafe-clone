@@ -1,52 +1,106 @@
-.products_section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    gap: 3rem;
-    font-family: var(--second-font);
-    width: 100%;
-    margin: 5rem 0 0 0;
-    font-weight: bold;
+.products_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  gap: 3rem;
+  font-family: var(--second-font);
+  width: 90%;
+  max-width: 1200px;
+  margin: 5rem auto 0 auto;
+  font-weight: bold;
 }
 
 .h2__products-section {
-    text-transform: uppercase;
-    /* text-align: center; */
-    font-size: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
 }
 
 .article__products-section {
-    height: 0.15rem;
-    width: 7rem;
-    background-color: var(--gold-color);
-    text-align: center;
-    border-radius: 5rem;
+  height: 0.15rem;
+  width: 7rem;
+  background-color: var(--gold-color);
+  border-radius: 5rem;
+  margin: 0 auto;
 }
 
 .ul__products-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .li__products-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 140px;
+  flex-shrink: 0;
 }
 
 .img__products-section {
-    width: 14rem;
-    height: 100%;
+  width: 100%;
+  height: auto;
+  max-width: 140px;
+  object-fit: contain;
 }
 
 .p__products-section {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .products_section {
+    width: 95%;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  .h2__products-section {
+    font-size: 1.75rem;
+  }
+  .ul__products-section {
+    gap: 1.5rem;
+  }
+  .li__products-section {
+    width: 110px;
+  }
+  .img__products-section {
+    max-width: 110px;
+  }
+  .p__products-section {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .products_section {
+    width: 100%;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .h2__products-section {
+    font-size: 1.4rem;
+  }
+  .ul__products-section {
+    gap: 1rem;
+  }
+  .li__products-section {
+    width: 90px;
+  }
+  .img__products-section {
+    max-width: 90px;
+  }
+  .p__products-section {
+    font-size: 0.8rem;
+  }
 }

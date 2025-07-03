@@ -24,6 +24,7 @@
 
 /* FRANQUICIAS */
 @import url("./franquicias/franquicias.css");
+@import url("./franquicias/header.css");
 
 :root {
   --white-color: #f8f4f7;

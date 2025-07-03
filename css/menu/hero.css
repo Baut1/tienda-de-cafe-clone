@@ -1,7 +1,8 @@
 .hero-section-menu {
     background-image: url(../../assets/img/promos/banner-promo2.jpg);
     height: 100vh;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -12,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: self-start;
+    align-items: flex-start;
     height: 100%;
     padding: 0 6rem;
 }
@@ -34,5 +35,29 @@
     font-size: 1.3rem;
     font-weight: bold;
     max-width: 25rem;
+}
+
+/* Media queries para responsive */
+@media (max-width: 768px) {
+    .article__section_hero-menu {
+        padding: 0 2rem;
+    }
+    .h1__section_hero-menu {
+        font-size: 2.5rem;
+        max-width: 100%;
+    }
+    .h3__section_hero-menu {
+        font-size: 1.8rem;
+    }
+    .p__section_hero-menu {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .article__section_hero-menu {
+        padding: 0 1rem;
+    }
 }
 

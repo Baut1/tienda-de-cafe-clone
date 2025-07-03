@@ -1,7 +1,6 @@
 .galery_section-tutoriales {
     margin: 4rem;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -12,21 +11,26 @@
 }
 
 .article__section-galery {
-    background-image: url(../../assets/img/tutorials/image1.png);
     height: 20rem;
-    width: 40%;
-    object-fit: cover;
+    flex-basis: 40%;
+    max-width: 450px;
+    min-width: 280px;
     background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    transition: background-size .3s ease-in-out;
     cursor: pointer;
-    background-size: 150%;
+    transition: background-size 0.3s ease-in-out;
+    box-sizing: border-box;
 }
 
+.article__section-galery:nth-child(1) {
+    background-image: url(../../assets/img/tutorials/image1.png);
+}
 .article__section-galery:nth-child(2) {
     background-image: url(../../assets/img/tutorials/image2.png);
 }

@@ -17,10 +17,6 @@ header {
     font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
 
-/* .header__img-menu {
-    margin: 1.5rem 0 0 0;
-} */
-
 .ul__header-menu {
     display: flex;
     flex-direction: row;
@@ -34,5 +30,18 @@ header {
 
 .header__li-menu:hover {
     opacity: 70%;
+}
+
+@media (max-width: 768px) {
+    .header__nav-menu {
+        flex-direction: column;
+        font-size: 0.65rem;
+        gap: 1rem;
+    }
+    .ul__header-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
 }
 

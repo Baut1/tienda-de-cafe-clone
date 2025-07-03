@@ -8,22 +8,29 @@
     padding: 2rem 4rem;
     color: var(--grey-color2);
     opacity: 60%;
-    width: 100%;
     font-size: 1.2rem;
 }
 
 .p__section-tutoriales {
     text-align: center;
+    max-width: 600px; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    white-space: normal; 
 }
 
-.p__section-tutoriales:nth-child(3) {
-    font-style: italic;
-    width: 35rem;
-}
-
+.p__section-tutoriales:nth-child(3),
 .p__section-tutoriales:nth-child(4) {
     font-style: italic;
-    width: 35rem;
+    width: 100%;
+    max-width: 600px;  
+    white-space: normal; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word; 
+    box-sizing: border-box; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .p__section-tutoriales:nth-child(5) {
